@@ -1,0 +1,24 @@
+{
+  "name": "project-klenty",
+  "version": "1.0.0",
+  "description": "Klenty project",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-image": "^2.0.0-rc.0",
+    "@parcel/transformer-sass": "^2.0.0-rc.0",
+    "parcel": "^2.0.0-rc.0",
+    "sass": "^1.41.0"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.4",
+    "@popperjs/core": "^2.10.1",
+    "bootstrap": "^5.1.1",
+    "core-js": "^3.17.3"
+  }
+}
